@@ -1,41 +1,49 @@
+html  {
+    font-size: 18px;
+}
+
 body  {
     border: 1px solid black;
     font-family: Helvetica;
-    font-size: 18px;
 }
 
 div  {
     border: 1px solid black;
 }
 
-/*Black header*/
-.blackbanner {
-    width: 100%;
-    background-color: black;
+.container {
+      max-width: 960px;
+      margin: 0 auto;
 }
 
-.blackbanner img {
+
+/*Black header*/
+.topbanner {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.topbanner img {
     height: 1.5rem;
     margin-left: 0.5rem;
     margin-right: 1rem;
 }
 
-.blackbanner span {
-   padding-top: 0.66rem;
-   padding-bottom: 0.66rem;
-   color: white;
-  }
 /*Main image*/
-.mainimage {
+.textbox {
  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
  background-repeat: no-repeat;
  height: 25rem;
  width: 100%;
 }
 
-.mainimage span {
+.textbox span {
  background-color: black;
  color: white;
+ padding-top: 9rem;
+ margin-right: 7rem;
+ justify-content: center;
 }
 .mainimage .smallheading {
  font-size: 1rem;
@@ -48,14 +56,31 @@ div  {
 }
 
 /*Navbar*/
-.navbar {
- display: block;
+nav {
+ color: white;
+ background-color: firebrick;
 }
 
+.navbar {
+ display: flex;
+  justify-content: center;
+}
+
+li {
+ padding-top: 0.75rem;
+ padding-bottom: 0.75rem;
+ margin-left: 4rem;
+}
 
 /*Product Grid*/
+.container box {
+ justify-content: center;
+}
 
-
+box {
+ width: 30%;
+ height: 30%;
+}
 
 /*Footer*/
 
